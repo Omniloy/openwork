@@ -328,6 +328,12 @@ importers:
 
   packages/web:
     dependencies:
+      '@langchain/core':
+        specifier: 1.1.15
+        version: 1.1.15(openai@6.16.0(ws@8.19.0)(zod@3.25.76))
+      '@langchain/langgraph-sdk':
+        specifier: ^1.5.4
+        version: 1.5.4(@langchain/core@1.1.15(openai@6.16.0(ws@8.19.0)(zod@3.25.76)))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@radix-ui/react-context-menu':
         specifier: ^2.2.16
         version: 2.2.16(@types/react-dom@19.2.3(@types/react@19.2.8))(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
