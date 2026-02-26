@@ -1,6 +1,6 @@
 {
-  "buildCommand": "vite build",
+  "buildCommand": "cd ../.. && pnpm --filter @openwork/web build:vercel",
   "outputDirectory": "dist",
-  "installCommand": "npm install --legacy-peer-deps",
+  "installCommand": "cd ../.. && corepack enable && pnpm install",
   "framework": "vite"
 }
